@@ -21,7 +21,7 @@ export function listaOsszeAllit(LISTA){
 export function kartyaOsszeallit(LISTA){
     let txt = ""
     for (let index = 0; index < LISTA.length; index++) {
-         txt+= `<div class="kartya"><h3>név: ${LISTA[index].nev}</h3><p>tel: ${LISTA[index].suly}</p><p>tel: ${LISTA[index].tel}</p></div>`       
+         txt+= `<div class="kartya"><h3>név: ${LISTA[index].nev}</h3><p>suly: ${LISTA[index].suly}</p><p>tel: ${LISTA[index].tel}</p></div>`       
     }
     console.log(txt)
     return txt
